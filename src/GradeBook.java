@@ -10,6 +10,24 @@ public class GradeBook {
         this.notas = notas;
     }
 
+    public String getNome(){
+        return nome;
+    }
+    public int getQtd(){
+        return qtd;
+    }
+    public float[] getNotas(){
+        return notas;
+    }
 
+    public void setNome(String nome){
+        this.nome = nome;
+    };
+    public void setQtd(int qtd){
+        this.qtd = qtd;
+    }
+    public void setNotas(float[] notas){
+        this.notas = notas;
+    }
 }
 
